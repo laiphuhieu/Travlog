@@ -1,1 +1,18 @@
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
 
+.main-nav-list {
+  display: flex;
+}
+
+.main-nav-item {
+  margin: 0 32px;
+}
+
+.section-style-1 {
+  padding-top: 64px;
+}
