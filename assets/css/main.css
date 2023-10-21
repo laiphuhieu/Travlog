@@ -146,3 +146,22 @@
   display: flex;
   justify-content: center;
 }
+
+.section-style-2 {
+  margin-top: 64px;
+}
+
+.section-style-2 .brand-wrapper {
+  position: relative;
+}
+
+.section-style-2 .brand-wrapper .brand-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-style-2 .object {
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
