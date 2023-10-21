@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- header -->
@@ -51,12 +57,101 @@
           <!-- Button -->
           <div class="button-box">
             <!-- log in -->
-            <button class="button" type="button">Log In</button>
-            <button class="button button-purple" type="button">Sign up</button>
+            <button class="button" type="button">
+              <a href="" class="text-button-black">Log In</a>
+            </button>
+            <button class="button button-purple" type="button">
+              <a href="" class="text-button-white">Sign up</a>
+            </button>
           </div>
         </div>
       </div>
     </header>
+
+    <main class="main">
+      <!-- Section 1 -->
+      <section class="section-style-1">
+        <div class="container">
+          <div class="content-container">
+            <div class="content-left">
+              <!-- work button -->
+              <div>
+                <button type="button" class="button button-nowrap">
+                  <a href="" class="button-text">Explore the world!</a>
+                  <span><img src="./assets/img/work 1.svg" alt="work" /></span>
+                </button>
+              </div>
+
+              <!-- hero title-->
+              <div class="hero-title">
+                <h2>
+                  Travel <span class="text-pink">top</span> <br />
+                  <span class="text-pink">destination </span> <br />
+                  of the world
+                </h2>
+              </div>
+
+              <!-- descr -->
+              <div class="content-descr">
+                <p>
+                  We always make our customer happy by providing as many choices
+                  as possible
+                </p>
+              </div>
+
+              <!-- content-button -->
+              <div class="content-button">
+                <button type="button" class="button button-purple">
+                  <a href="" class="text-button-white">Get Started</a>
+                </button>
+                <button
+                  type="button"
+                  class="button button-nowrap button-border"
+                >
+                  <span><img src="./assets/img/play-circle.svg" alt="" /></span>
+                  <a href="" class="text-button-black" style="margin-left: 8px"
+                    >Watch Demo</a
+                  >
+                </button>
+              </div>
+            </div>
+
+            <div class="content-right">
+              <div class="content-wrapper">
+                <div class="content-card-left">
+                  <div class="content-card-wrapper">
+                    <div class="card-1">
+                      <img src="./assets/img/card1.svg" alt="card" />
+                      <div class="send-btn">
+                        <img src="./assets/img/send.svg" alt="send" />
+                      </div>
+                    </div>
+
+                    <div class="card-2">
+                      <img src="./assets/img/card2.svg" alt="card2" />
+                    </div>
+                  </div>
+                </div>
+                <div class="content-card-right">
+                  <div class="card-3">
+                    <img src="./assets/img/card3.svg" alt="card3" />
+                  </div>
+                  <button class="button button-nowrap button-location">
+                    <span>
+                      <img src="./assets/img/location.svg" alt="" />
+                    </span>
+                    <a href="">Top Places</a>
+                  </button>
+                  <div class="add-btn">
+                    <img src="./assets/img/add.svg" alt="add" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
   <script src="./assets/js/main.js"></script>
 </html>
