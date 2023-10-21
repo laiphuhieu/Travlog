@@ -14,6 +14,12 @@ body {
   font-family: "Circular Std", sans-serif;
   line-height: 1.2;
   color: #8c8b92;
+  /* background-image: url("../img/heroimg1.svg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: url(../img/heroimg1.svg) top left no-repeat,
+    url(../img/heroimg2.svg) right -30% no-repeat;
+  background-size: 37%;
 }
 
 .container {
@@ -37,6 +43,8 @@ a {
 p {
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
 }
 
 button {
@@ -55,6 +63,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+  color: #000;
 }
 
 img {
@@ -78,4 +87,21 @@ img {
 .button.button-purple {
   background: #5d50c6;
   color: #fff;
+}
+
+.button-nowrap {
+  display: flex;
+  align-items: center;
+}
+
+.text-button-black {
+  color: #222831;
+}
+
+.text-button-white {
+  color: #fff;
+}
+
+.button-border {
+  border: 1px solid #eee;
 }

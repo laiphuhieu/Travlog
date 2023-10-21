@@ -16,3 +16,133 @@
 .section-style-1 {
   padding-top: 64px;
 }
+
+.content-container {
+  display: flex;
+}
+
+.content-left {
+  width: 427px;
+  height: 713px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-left .button-text {
+  margin-right: 16px;
+  color: #f85e9f;
+}
+
+.content-left .hero-title {
+  padding: 43px 0;
+}
+
+.content-left h2 {
+  font-size: 69px;
+  font-weight: 900;
+}
+
+.content-left .text-pink {
+  color: #f85e9f;
+}
+
+.content-left .content-descr {
+  padding-bottom: 43px;
+}
+
+.content-left .content-descr p {
+  font-size: 18px;
+  color: #8b8b91;
+}
+
+.content-button {
+  display: flex;
+}
+
+.content-button button:first-child {
+  margin-right: 16px;
+  box-shadow: 0 20px 50px -15px #5d50c6;
+}
+
+.content-right {
+  background-image: url("../img/layer.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper .content-card-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.content-wrapper .content-card-wrapper .card-1 {
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.content-wrapper .content-card-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.send-btn {
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f85e9f;
+  box-shadow: 0 20px 25px -20px #000;
+  position: absolute;
+  top: 86%;
+  left: -12%;
+}
+
+.send-btn img {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-location {
+  background-color: #fff;
+  position: absolute;
+  right: -30%;
+  bottom: 27%;
+  box-shadow: 0 20px 35px -20px #000;
+}
+
+.add-btn {
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff5722;
+  box-shadow: 0 20px 25px -20px #000;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+.add-btn img {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+}
