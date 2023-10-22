@@ -71,6 +71,12 @@ img {
   max-width: 100%;
 }
 
+.section-style-1,
+.section-style-2,
+.section-style-3 {
+  margin: 64px 0;
+}
+
 .is-active {
   color: #222831;
 }
@@ -104,4 +110,8 @@ img {
 
 .button-border {
   border: 1px solid #eee;
+}
+
+.text-pink {
+  color: #f85e9f;
 }

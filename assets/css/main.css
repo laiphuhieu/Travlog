@@ -13,10 +13,6 @@
   margin: 0 32px;
 }
 
-.section-style-1 {
-  padding-top: 64px;
-}
-
 .content-container {
   display: flex;
 }
@@ -41,10 +37,6 @@
 .content-left h2 {
   font-size: 69px;
   font-weight: 900;
-}
-
-.content-left .text-pink {
-  color: #f85e9f;
 }
 
 .content-left .content-descr {
@@ -147,10 +139,6 @@
   justify-content: center;
 }
 
-.section-style-2 {
-  margin-top: 64px;
-}
-
 .section-style-2 .brand-wrapper {
   position: relative;
 }
@@ -164,4 +152,127 @@
   position: absolute;
   left: 10%;
   bottom: 5%;
+}
+
+.info-wrapper {
+  display: flex;
+}
+
+.content-info-left {
+  width: 537px;
+  height: 443px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-info-left .info-left-heading {
+  margin-bottom: 16px;
+}
+
+.content-info-left .info-left-heading h4 {
+  font-size: 23px;
+}
+
+.content-info-left .info-text-descr h2 {
+  font-size: 44px;
+  color: #191825;
+}
+
+.info-card-wrapper {
+  display: flex;
+  flex: 1;
+  max-width: 1092px;
+}
+
+.info-card {
+  padding: 64px;
+  text-align: center;
+  align-items: center;
+  margin: 0 11px;
+  background: #fff;
+}
+
+.info-card:not(:first-child) {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.info-card .info-card-img img {
+  width: 64px;
+  margin-bottom: 64px;
+}
+
+.info-card .info-card-heading {
+  font-size: 28px;
+  color: #191825;
+  margin-bottom: 32px;
+}
+
+.info-card .info-card-descr {
+  font-size: 18px;
+}
+
+.tns-outer {
+  overflow: hidden;
+}
+
+.tns-outer .tns-liveregion {
+  display: none;
+}
+
+.section-style-4 {
+  margin-top: 64px;
+  position: relative;
+}
+
+.feature-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 0;
+}
+
+.feature-wrapper .feature-left-heading {
+  font-size: 23px;
+  margin-bottom: 16px;
+}
+
+.feature-wrapper .feature-text-descr h2 {
+  font-size: 44px;
+}
+
+.feature-right {
+  display: flex;
+}
+
+.controller-btn {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #eee;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.controller-btn[disabled] {
+  cursor: not-allowed;
+}
+
+.controller-btn[disabled] span {
+  opacity: 0.3;
+}
+
+.controller-btn.btn-right {
+  background: #5d50c6;
+  margin-left: 32px;
+}
+
+.controller-btn.btn-left span img,
+.controller-btn.btn-right span img {
+  width: 24px;
+}
+
+.object-x {
+  position: absolute;
+  right: 15%;
 }
