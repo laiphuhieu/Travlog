@@ -57,7 +57,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  color: #000;
+  color: #191825;
 }
 
 img {
@@ -113,4 +113,22 @@ img {
 
 .text-orange {
   color: #ff5722;
+}
+
+.text-yellow {
+  color: #facd49;
+}
+
+.section-card-title h4 {
+  font-size: 23px;
+  margin-bottom: 16px;
+}
+
+.section-card-heading h2 {
+  font-size: 44px;
+  margin-bottom: 32px;
+}
+
+.section-card-descr p {
+  font-size: 18px;
 }
