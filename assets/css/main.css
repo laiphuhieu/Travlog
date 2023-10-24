@@ -179,11 +179,6 @@
   font-size: 23px;
 }
 
-.content-info-left .info-text-descr h2 {
-  font-size: 44px;
-  color: #191825;
-}
-
 .info-card-right {
   display: flex;
   flex: 1;
@@ -241,10 +236,6 @@
 .feature-wrapper .feature-left-heading {
   font-size: 23px;
   margin-bottom: 16px;
-}
-
-.feature-wrapper .feature-text-descr h2 {
-  font-size: 44px;
 }
 
 .feature-right {
@@ -394,21 +385,6 @@
   margin-bottom: 64px;
 }
 
-.section-location-right .section-location-title h4 {
-  font-size: 23px;
-  margin-bottom: 16px;
-}
-
-.section-location-right .section-location-heading h2 {
-  font-size: 44px;
-  color: #191825;
-  margin-bottom: 32px;
-}
-
-.section-location-right .section-location-descr p {
-  font-size: 18px;
-}
-
 .section-location-card {
   position: relative;
 }
@@ -465,4 +441,99 @@
 
 .ticket-btn img {
   width: 48px;
+}
+
+.section-style-7 {
+  padding: 64px 0;
+}
+
+.section-features-wrapper {
+  display: flex;
+}
+
+.section-features-left {
+  width: 540px;
+}
+
+.section-features-left .section-features-detail {
+  margin-bottom: 64px;
+}
+
+.section-key-features .key-features-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 32px;
+  border: 1px solid #eeee;
+  border-radius: 32px;
+}
+
+.section-key-features .key-features-wrapper:first-child,
+.section-key-features .key-features-wrapper:last-child {
+  border: unset;
+}
+
+.section-key-features .key-features {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  background-color: #facd49;
+  margin-right: 32px;
+}
+
+.section-key-features .key-features-wrapper:first-child .key-features {
+  background-color: #ff5722;
+}
+
+.section-key-features .key-features-wrapper:last-child .key-features {
+  background-color: #f85e9f;
+}
+
+.section-key-features .key-features .features-icon {
+  width: 48px;
+}
+
+.section-features-right {
+  flex: 1;
+  margin-left: 42px;
+  position: relative;
+}
+
+.section-features-right .image-1 {
+  max-width: 443px;
+  max-height: 665px;
+}
+
+.section-features-right .image-2 {
+  max-width: 351px;
+  max-height: 496px;
+  position: absolute;
+  right: 0;
+  top: 33%;
+}
+
+.section-features-right .bg {
+  max-width: 447px;
+  max-height: 276px;
+  position: absolute;
+  top: -7%;
+  right: -34%;
+  z-index: -1;
+}
+
+.section-features-right .button-image {
+  position: absolute;
+  top: 14%;
+  right: 0;
+}
+
+.section-features-right .button-image span {
+  width: 40px;
+  margin-right: 16px;
+}
+
+.section-features-right .button-image h4 {
+  font-size: 23px;
 }
