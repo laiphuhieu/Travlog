@@ -67,8 +67,9 @@ img {
 
 .section-style-1,
 .section-style-2,
-.section-style-3 {
-  margin: 64px 0;
+.section-style-3,
+.section-style-6 {
+  padding: 64px 0;
 }
 
 .is-active {

@@ -220,7 +220,7 @@
 }
 
 .tns-outer {
-  overflow: hidden;
+  overflow-x: clip;
 }
 
 .tns-outer .tns-liveregion {
@@ -228,7 +228,6 @@
 }
 
 .section-style-4 {
-  margin-top: 64px;
   position: relative;
 }
 
@@ -283,6 +282,10 @@
   right: 14%;
 }
 
+.section-style-5 {
+  padding-bottom: 64px;
+}
+
 .section-card-wrapper {
   display: flex;
 }
@@ -290,7 +293,10 @@
 .section-card {
   width: 350px !important;
   margin: 0 15px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 32px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .section-card:first-child {
@@ -345,4 +351,118 @@
   margin-left: 8px;
   width: 24px;
   height: 24px;
+}
+
+.section-location-wrapper {
+  display: flex;
+}
+
+.section-location-wrapper .section-location-left {
+  position: relative;
+  display: flex;
+  align-items: end;
+}
+
+.section-location-left .people-group {
+  width: 790px;
+  height: 700px;
+}
+
+.section-location-left .button-discount {
+  top: 18%;
+  right: 0;
+}
+
+.section-location-left .button-discount span {
+  margin-right: 16px;
+}
+
+.section-location-left .button-discount h4 {
+  font-size: 23px;
+}
+
+.section-location-wrapper .section-location-left .shape {
+  position: absolute;
+}
+
+.section-location-right {
+  flex: 1;
+  margin-left: 42px;
+}
+
+.section-location-right .section-location-detail {
+  margin-bottom: 64px;
+}
+
+.section-location-right .section-location-title h4 {
+  font-size: 23px;
+  margin-bottom: 16px;
+}
+
+.section-location-right .section-location-heading h2 {
+  font-size: 44px;
+  color: #191825;
+  margin-bottom: 32px;
+}
+
+.section-location-right .section-location-descr p {
+  font-size: 18px;
+}
+
+.section-location-card {
+  position: relative;
+}
+
+.location-card-top {
+  margin-bottom: 32px;
+}
+
+.location-card-wrapper {
+  display: flex;
+  text-align: center;
+}
+
+.location-card {
+  border: 1px solid #eee;
+  border-radius: 32px;
+  padding: 32px;
+}
+
+.location-card .location-card-data {
+  margin-bottom: 16px;
+}
+
+.location-card .location-card-data h3 {
+  font-size: 35px;
+}
+
+.location-card .location-card-descr {
+  width: 142px;
+}
+
+.location-card .location-card-descr p {
+  font-size: 18px;
+  color: #191825;
+}
+
+.location-card-wrapper .location-card:first-child {
+  margin-right: 32px;
+}
+
+.ticket-btn {
+  width: 112px;
+  height: 112px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #facd49;
+  box-shadow: 0 20px 25px -20px #000;
+  position: absolute;
+  right: -15%;
+  top: -22%;
+}
+
+.ticket-btn img {
+  width: 48px;
 }
