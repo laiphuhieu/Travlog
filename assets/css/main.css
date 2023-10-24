@@ -1,3 +1,8 @@
+.hero-img {
+  background: url(../img/heroimg1.svg) top left no-repeat,
+    url(../img/heroimg2.svg) right center no-repeat;
+}
+
 .header-box {
   display: flex;
   justify-content: space-between;
@@ -159,7 +164,7 @@
 }
 
 .content-info-left {
-  width: 537px;
+  width: 444px !important;
   height: 443px;
   display: flex;
   flex-direction: column;
@@ -179,7 +184,7 @@
   color: #191825;
 }
 
-.info-card-wrapper {
+.info-card-right {
   display: flex;
   flex: 1;
   max-width: 1092px;
@@ -191,6 +196,7 @@
   align-items: center;
   margin: 0 11px;
   background: #fff;
+  width: 350px;
 }
 
 .info-card:not(:first-child) {
@@ -274,5 +280,69 @@
 
 .object-x {
   position: absolute;
-  right: 15%;
+  right: 14%;
+}
+
+.section-card-wrapper {
+  display: flex;
+}
+
+.section-card {
+  width: 350px !important;
+  margin: 0 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.section-card:first-child {
+  margin-left: unset;
+}
+
+.section-card:last-child {
+  margin-right: unset;
+}
+
+.section-card .section-card-img {
+  height: 350px;
+  width: 350px;
+}
+
+.section-card .section-card-detail {
+  padding: 32px;
+}
+
+.section-card-top {
+  margin-bottom: 32px;
+}
+
+.section-card .section-card-detail .section-card-heading {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.section-card-heading .section-card-title h4 {
+  font-size: 23px;
+  color: #191825;
+}
+
+.section-card-heading .section-card-price h4 {
+  font-size: 23px;
+}
+
+.section-card .section-card-detail .section-card-descr p {
+  font-size: 18px;
+}
+
+.section-card-bottom .section-card-rating {
+  display: flex;
+  align-items: center;
+}
+
+.section-card-bottom .section-card-rating h4 {
+  font-size: 23px;
+}
+
+.section-card-bottom .section-card-rating span {
+  margin-left: 8px;
+  width: 24px;
+  height: 24px;
 }
