@@ -14,12 +14,6 @@ body {
   font-family: "Circular Std", sans-serif;
   line-height: 1.2;
   color: #8c8b92;
-  /* background-image: url("../img/heroimg1.svg");
-  background-repeat: no-repeat;
-  background-size: cover; */
-  background: url(../img/heroimg1.svg) top left no-repeat,
-    url(../img/heroimg2.svg) right -30% no-repeat;
-  background-size: 37%;
 }
 
 .container {
@@ -114,4 +108,8 @@ img {
 
 .text-pink {
   color: #f85e9f;
+}
+
+.text-orange {
+  color: #ff5722;
 }

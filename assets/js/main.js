@@ -1,7 +1,7 @@
 function initSlider() {
   var slider = tns({
-    container: ".info-card-wrapper",
-    items: 2,
+    container: ".section-card-wrapper",
+    items: 3,
     controls: true,
     loop: false,
     speed: 400,
