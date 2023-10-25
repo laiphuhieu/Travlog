@@ -445,6 +445,7 @@
 
 .section-style-7 {
   padding: 64px 0;
+  padding-bottom: unset;
 }
 
 .section-features-wrapper {
@@ -499,6 +500,8 @@
   flex: 1;
   margin-left: 42px;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .section-features-right .image-1 {
@@ -508,24 +511,24 @@
 
 .section-features-right .image-2 {
   max-width: 351px;
-  max-height: 496px;
+  height: 496px;
   position: absolute;
-  right: 0;
-  top: 33%;
+  right: 2%;
+  top: 39%;
 }
 
 .section-features-right .bg {
   max-width: 447px;
   max-height: 276px;
   position: absolute;
-  top: -7%;
-  right: -34%;
+  top: -2%;
+  right: -32%;
   z-index: -1;
 }
 
 .section-features-right .button-image {
   position: absolute;
-  top: 14%;
+  top: 19%;
   right: 0;
 }
 
@@ -536,4 +539,111 @@
 
 .section-features-right .button-image h4 {
   font-size: 23px;
+}
+
+.section-style-8 {
+  background-image: url(../img/layer2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1200px;
+  margin-top: 72px;
+}
+
+.section-clients-wrapper {
+  display: flex;
+}
+
+.section-clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section-clients .section-clients-status .section-card-title {
+  margin-bottom: 16px;
+}
+
+.section-clients .section-clients-status,
+.section-clients-avatar,
+.section-clients-detail {
+  margin-bottom: 64px;
+}
+
+.section-clients-detail {
+  margin: 0 100px;
+}
+
+.section-clients-detail .clients-name h3 {
+  font-size: 23px;
+  margin-bottom: 32px;
+}
+
+.section-clients-detail .clients-name h3 span {
+  color: #8c8b92;
+}
+
+.clients-rating-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.clients-descr {
+  font-size: 23px;
+}
+
+.section-style-8 .tns-outer {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.section-style-8 .tns-outer [data-controls="prev"] {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 1px solid #eee;
+  position: absolute;
+  background: #fff;
+  left: 0;
+  top: 50%;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.section-style-8 .tns-outer [data-controls="next"] {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 1px solid #eee;
+  background: #5d50c6;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.section-style-8 .tns-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.tns-nav > [aria-controls] {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  margin: 0 24px;
+  border-radius: 50%;
+  background: #ddd;
+  border: 0;
+  cursor: pointer;
+}
+
+.tns-nav > .tns-nav-active {
+  background: #f85e9f;
 }
