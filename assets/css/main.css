@@ -548,6 +548,7 @@
   background-position: center;
   height: 1200px;
   margin-top: 72px;
+  margin-bottom: 128px;
 }
 
 .section-clients-wrapper {
@@ -646,4 +647,71 @@
 
 .tns-nav > .tns-nav-active {
   background: #f85e9f;
+}
+
+.section-style-9 {
+  position: relative;
+}
+
+.section-form {
+  background-color: #fffbf0;
+  padding: 128px 64px;
+}
+
+.section-form .section-form-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.section-form .section-card-title h4 {
+  margin-bottom: 32px;
+}
+
+.section-form .section-card-heading h2 {
+  font-size: 55px;
+}
+
+.section-form .section-form-bottom {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-form .section-form-bottom .button-purple {
+  padding: 32px 64px;
+}
+
+.section-form .section-form-bottom .button-purple h4 {
+  font-size: 23px;
+  color: white;
+}
+
+input[type="text"] {
+  border-radius: 32px;
+  border: none;
+  font-size: 23px;
+  width: 69%;
+  background-position: 10px 30px;
+  padding: 32px;
+}
+
+input[type="text"]:focus {
+  background-image: none;
+}
+
+.element {
+  position: absolute;
+}
+
+.element.element-top {
+  top: -5%;
+  left: 18%;
+}
+
+.element.element-right {
+  right: 0;
+  bottom: -25%;
 }
